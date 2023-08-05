@@ -1,0 +1,21 @@
+@use "../variable" as var;
+.Container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.Tag {
+    box-sizing: border-box;
+    min-width: 115px;
+    border-radius: 10px;
+    background-color: var.$main-color;
+    color: #fff;
+    font-size: 0.875rem;
+    padding: 3px 30px;
+    @media screen and (max-width: 640px){
+        font-size: 0.625rem;
+        min-width: 85px;
+        text-align: center;
+    }
+}

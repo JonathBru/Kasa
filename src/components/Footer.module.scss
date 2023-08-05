@@ -1,0 +1,23 @@
+.Container {
+    background-color: #000;
+    width: 100%;
+    margin-top: auto;
+    padding: 65px 0 30px;
+    text-align: center;
+    & img {
+      height: 40px;
+      margin-bottom: 30px;
+      @media screen and (max-width: 640px) {
+        margin-bottom: 15px;
+      }
+    }
+    & p {
+      color: #fff;
+      margin: 0;
+      @media screen and (max-width: 640px) {
+        margin: 0 auto 30px;
+        font-size: 0.75rem;
+        max-width: 130px;
+      }
+    }
+  }

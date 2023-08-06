@@ -2,9 +2,8 @@
 
 .Container {
   margin-top: 30px;
-  & h1,
   
-  p {
+  & h1, p {
     margin: 0;
   }
   & h1 {
@@ -25,6 +24,7 @@
     display: flex;
     color: var.$main-color;
     justify-content: space-between;
+    align-items: center;
 
     @media screen and (max-width: 640px) {
       flex-direction: column;
@@ -41,7 +41,7 @@
     }
     & .host_block {
       display: flex;
-      gap: 25px;
+      gap: 29px;
       flex-direction: column;
       flex-wrap: nowrap;
 
@@ -49,6 +49,7 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
       }
       .host {
         display: flex;

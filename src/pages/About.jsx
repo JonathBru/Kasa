@@ -1,7 +1,7 @@
 import Banner from "../components/Banner";
 import BannerImg from "../assets/banner_img_about.png";
 import Collapse from "../components/Collapse";
-import classes from "./About.module.scss";
+import classes from "../styles/About.module.scss";
 export default function About() {
   return (
     <div className={classes.About_container}>

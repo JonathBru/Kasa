@@ -2,7 +2,7 @@ import logements from "../data/logements.json";
 import { Navigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import Slideshow from "../components/Slideshow";
-import classes from "./LogementPage.module.scss";
+import classes from "../styles/LogementPage.module.scss";
 import LogementDetails from "../components/LogementDetails";
 
 const LogementPage = () => {

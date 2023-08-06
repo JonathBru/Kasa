@@ -3,6 +3,10 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    margin-top: 20px;
+    @media screen and (max-width: 640px){
+        margin-top: 0px;
+    }
 }
 
 .Tag {

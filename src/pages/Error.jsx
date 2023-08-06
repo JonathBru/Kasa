@@ -1,6 +1,6 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import classes from "./Error.module.scss"
+import classes from "../styles/Error.module.scss"
 import { Link } from "react-router-dom"
 const ErrorPage = () => {
 return <div className={classes.Wrapper}>

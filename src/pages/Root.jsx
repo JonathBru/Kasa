@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import classes from "./Root.module.scss";
+import classes from "../styles/Root.module.scss";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 export default function RootLayout() {

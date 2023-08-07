@@ -16,6 +16,10 @@
   align-items: center;
   justify-content: space-evenly;
   color: var.$main-color;
+  margin-bottom: 139px;
+  @media screen and (max-width: 640px) {
+    margin-bottom: 113px;
+  }
   & p {
     font-size: 2.25rem;
     font-weight: 500;

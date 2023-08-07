@@ -29,6 +29,7 @@
     @media screen and (max-width: 640px) {
       flex-direction: column;
       gap: 10px;
+      align-items: flex-start;
     }
 
     & .title_block {
@@ -41,7 +42,7 @@
     }
     & .host_block {
       display: flex;
-      gap: 29px;
+      gap: 17px;
       flex-direction: column;
       flex-wrap: nowrap;
 
